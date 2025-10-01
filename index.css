@@ -1,0 +1,84 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+
+}
+
+header{
+    background: url('imagens site de musica/Leonardo_Phoenix_10_Create_a_vibrant_highresolution_background_3\ \(1\).jpg') center/cover no-repeat;
+    height:750px;
+}
+
+
+#paragrafoinicio{
+    margin-top: -330px;
+    font-family: 'Istok Web', sans-serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+header .header-background{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0 0 ;
+}
+
+footer{
+    background: #212529;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer .footer-top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+footer .footer-top .social-icons a{
+    font-size: 2em;
+    color: white;
+    transition: color 0.3s ease;
+
+}
+
+footer .footer-top .social-icons a:hover{
+    color: #007bff;
+  
+}
+
+footer .efeito-frase{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgba(225, 255,255,0.8);
+}
+
+footer .footer-bottom{
+    font-size: 1em;
+    color: rgba(255,255,255, 0.7);
+}
+
+footer .footer-bottom a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer .footer-bottom a:hover{
+   text-decoration: underline;
+}

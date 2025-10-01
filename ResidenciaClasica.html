@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ">
+      <a href="index.html" class="navbar-brand">Mobili Casa e Jardim</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="sobre.html" class="nav-link">Sobre</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="imoveis.html" class="nav-link">Imoveis</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contanto.html" class="nav-link">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="login-cadastro.html" class="nav-link">Cadastro</a>
+          </li>
+        </ul>
+      </div><!--Fim div collapse-->
+    </div><!--Fim div container fluid-->
+  </nav>
+
+  <header id="inicio" class="text-center text-white">
+    <div class="header-background">
+      <h1>Residencia Clássica</h1>
+    </div>
+  </header>
+
+  <section id="sobre" class="container my-5">
+    <img src="imagens/destaque2.jpg" height="750px" class="card-img-top">
+  </section>
+
+  <section id="destaques" class="container my-5">
+    <h2 class="text-center mb-4">Sobre a Residência Clássica</h2>
+
+
+    <div class="col g-4">
+      <div class="card-body">
+        <h5 class="card-title">Residência Clássica</h5>
+        <p class="card-text">4 Quartos. Jardim Amplo. Lareira</p>
+        <p class="text-success fw-bold">R$5.5200.000</p>
+        <div>
+          <p>Apresento uma mansão residencial clássica de altíssimo padrão, cuidadosamente esculpida para exalar
+            elegância
+            atemporal e imponência em cada detalhe.
+            Com quatro quartos amplos, incluindo uma suíte master com closet e varanda ensolarada, a planta é inspirada
+            em
+            residências de estilo neoclássico – como as encontradas na sofisticada Cidade Jardim, com pé‑direito duplo e
+            circulação que dá charme à circulação
+            Macedo E Associados
+            O salão principal exibe uma lareira de mármore, envolta por boiseries e janelões com vista para o jardim: um
+            santuário de aconchego que remete às salas de recepção clássicas
+            Do hall de entrada ao living envidraçado, os ambientes sociais se integram sem perder sua identidade,
+            revelando colunas elegantes, rodapés de madeira e pisos em tacos nobres – uma interpretação atual do
+            neoclássico
+            O jardim frontal e lateral abrange mais de mil metros quadrados, com grama bem cuidada, árvores adultas e
+            canteiros floridos – ideal para receber eventos ao ar livre ou contemplar o pôr‑do‑sol num banco de pedra.
+            A cozinha gourmet remete à tradição europeia, equipada com mobiliário sob medida, revestimentos em azulejo
+            branco-brilhante e ilha central em granito escuro, junto ao espaço para refeições formais.
+            Na parte íntima, biblioteca ou home office com molduras clássicas, peças de antiquário e iluminação
+            indireta,
+            oferecendo tranquilidade e sofisticação.
+            A residência ainda conta com terraço coberto e varanda de pedra, perfeita para chá da tarde ou um café ao
+            entardecer, conectada diretamente ao jardim.
+            Todas as esquadrias de madeira maciça, os rodapés ornamentados, os cornijas moldurados e os acessórios em
+            latão, reforçam a presença marcante do estilo clássico, alinhando tradição e bom gosto.</p>
+        </div>
+      </div><!--Fim card-->
+  </section>
+
+  <section id="contato" class="container my-5">
+    <h2 class="text-center mb-4">Fale conosco</h2>
+
+    <form class="mx-auto bg-white p-4 rounded shadow" style="max-width: 700px;">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">
+            <i class="bi bi-person-fill me-1"></i>Nome
+
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">
+            <i class="bi bi-envelope-fill me-1"></i>E-mail
+
+            <input type="text" class="form-control" id="email" placeholder="exemplo@gmail.com" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">
+            <i class="bi bi-telephone-fill me-1"></i>Telefone
+
+            <input type="tel" class="form-control" id="nome" placeholder="(00)273322-1515" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="assunto" class="form-label">
+            <i class="bi bi-tag-fill me-1"></i>Assunto
+            <select id="assunto" class="form-select">
+              <option selected disabled value="">Selecione...</option>
+              <option>Agendar visita</option>
+              <option>Comprar imóvel</option>
+              <option>Parceira comercial</option>
+              <option>Outros</option>
+            </select>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-12">
+          <label for="mensagem" class="form-label">
+            <i class="bi bi-chat-left-text-fill me-1"></i>Mensagem
+          </label>
+
+          <textarea id="mensagem" class="form-control" placeholder="Como podemos te ajudar?" rows="5"></textarea>
+        </div>
+      </div><!-- Fim row-->
+
+      <button type="submit" class="btn btn-dark mt-4 w-100">
+        <i class="bi bi-send-fill me-2"></i>Enviar Mensagem
+      </button>
+    </form>
+  </section>
+  <footer>
+    <div class="footer-top">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" class="bi bi-facebook" aria-label="Facebook"></a>
+
+        <a href="https://www.instagram.com" class="bi bi-instagram" aria-label="Instagram"></a>
+
+        <a href="https://twitter.com" class="bi bi-twitter" aria-label="Twitter"></a>
+
+      </div>
+
+    </div><!--fim footer top-->
+
+    <div class="efeit-frase">
+      <p>Nós transformamos a casas em sonhos,onde o luxo encontra
+        a perfeição
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 LuxoImóvel. Todos os direitos reservados
+        </p>
+
+        <p>
+          <a href="#"> Anderson Nicolau | Desenvolvido Por Senac</a>
+        </p>
+
+      </div>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

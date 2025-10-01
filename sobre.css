@@ -1,0 +1,23 @@
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 850px;
+    height: 700px;
+}
+
+#texto-sobre {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#sobre {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 700px;
+}

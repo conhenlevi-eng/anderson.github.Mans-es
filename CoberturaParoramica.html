@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ">
+      <a href="index.html" class="navbar-brand">Mobili Casa e Jardim</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="sobre.html" class="nav-link">Sobre</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="imoveis.html" class="nav-link">Imoveis</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contanto.html" class="nav-link">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="login-cadastro.html" class="nav-link">Cadastro</a>
+          </li>
+        </ul>
+      </div><!--Fim div collapse-->
+    </div><!--Fim div container fluid-->
+  </nav>
+
+  <header id="inicio" class="text-center text-white">
+    <div class="header-background">
+      <h1>Mansão Cobertura Panoramica</h1>
+    </div>
+  </header>
+
+  <section id="sobre" class="container my-5">
+    <img src="imagens/destaque3.jpg" height="750px" class="card-img-top">
+  </section>
+
+  <section id="destaques" class="container my-5">
+    <h2 class="text-center mb-4">Sobre Cobertura Panoramica</h2>
+
+
+    <div class="row g-4">
+      <!--Casa 3-->
+      <div class="card-body">
+        <h5 class="card-title">Cobertura Panoramica</h5>
+        <p class="card-text">3 suíts. Varanda gourmet. Academia</p>
+        <p class="text-success fw-bold">R$6.900.000</p>
+        <p>Apresento uma mansão de luxo com cobertura panorâmica que oferece vista 360° da cidade e do mar, permitindo
+          contemplar o horizonte do alto de seu terraço exclusivo
+          Wimoveis
+          luxuryproperties.com.br
+          No alto do imóvel, a cobertura abriga três suítes amplas, sendo a master com closet e banheiro com
+          hidromassagem, ideal para relaxar com total privacidade
+          luxuryproperties.com.br
+          A varanda gourmet é um espetáculo à parte, equipada com churrasqueira, bancada em granito e espaço para bar,
+          perfeita para receber amigos e familiares com todo conforto
+          luxuryproperties.com.br
+          Casa Mineira
+          A academia privativa conta com aparelhos de última geração, modelando um verdadeiro fitness center em casa,
+          inspirado nos melhores condomínios clube
+          luxuryproperties.com.br
+          Wimoveis
+          A sala de estar exibe pé-direito duplo, pisos em mármore e janelões que proporcionam abundante entrada de luz
+          natural e valorizam a vista panorâmica
+          compreaquipatrimonio.com.br
+          A cozinha gourmet, aberta e integrada, possui ilha central e eletrodomésticos de alto padrão, aliando
+          funcionalidade e sofisticação
+          Imovelweb
+          O terraço superior ainda conta com deck em madeira nobre, jacuzzi integrada e paisagismo minimalista, criando
+          um lounge externo exclusivo
+          luxuryproperties.com.br
+          Imovelweb
+          Os ambientes sociais se integram perfeitamente, com sala, varanda gourmet e cozinha formando um espaço fluido
+          ideal para entretenimento
+          dreamcasa.com.br
+          A mansão oferece garagem privativa para até três veículos e condomínio com portaria 24 horas, zeladoria e
+          segurança integrada
+          luxuryproperties.com.br
+          Wimoveis
+          Viva o privilégio de morar neste imóvel singular, onde cada detalhe foi pensado para proporcionar elegância,
+          conforto e bem-estar em um só luga</p>
+      </div>
+  </section>
+
+  <section id="contato" class="container my-5">
+    <h2 class="text-center mb-4">Fale conosco</h2>
+
+    <form class="mx-auto bg-white p-4 rounded shadow" style="max-width: 700px;">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">
+            <i class="bi bi-person-fill me-1"></i>Nome
+
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">
+            <i class="bi bi-envelope-fill me-1"></i>E-mail
+
+            <input type="text" class="form-control" id="email" placeholder="exemplo@gmail.com" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">
+            <i class="bi bi-telephone-fill me-1"></i>Telefone
+
+            <input type="tel" class="form-control" id="nome" placeholder="(00)273322-1515" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="assunto" class="form-label">
+            <i class="bi bi-tag-fill me-1"></i>Assunto
+            <select id="assunto" class="form-select">
+              <option selected disabled value="">Selecione...</option>
+              <option>Agendar visita</option>
+              <option>Comprar imóvel</option>
+              <option>Parceira comercial</option>
+              <option>Outros</option>
+            </select>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-12">
+          <label for="mensagem" class="form-label">
+            <i class="bi bi-chat-left-text-fill me-1"></i>Mensagem
+          </label>
+
+          <textarea id="mensagem" class="form-control" placeholder="Como podemos te ajudar?" rows="5"></textarea>
+        </div>
+      </div><!-- Fim row-->
+
+      <button type="submit" class="btn btn-dark mt-4 w-100">
+        <i class="bi bi-send-fill me-2"></i>Enviar Mensagem
+      </button>
+    </form>
+  </section>
+  <footer>
+    <div class="footer-top">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" class="bi bi-facebook" aria-label="Facebook"></a>
+
+        <a href="https://www.instagram.com" class="bi bi-instagram" aria-label="Instagram"></a>
+
+        <a href="https://twitter.com" class="bi bi-twitter" aria-label="Twitter"></a>
+
+      </div>
+
+    </div><!--fim footer top-->
+
+    <div class="efeit-frase">
+      <p>Nós transformamos a casas em sonhos,onde o luxo encontra
+        a perfeição
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 LuxoImóvel. Todos os direitos reservados
+        </p>
+
+        <p>
+          <a href="#"> Anderson Nicolau | Desenvolvido Por Senac</a>
+        </p>
+
+      </div>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

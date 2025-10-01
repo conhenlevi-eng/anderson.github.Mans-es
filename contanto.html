@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="contanto.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ">
+      <a href="index.html" class="navbar-brand">Mobili Casa e Jardim</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="sobre.html" class="nav-link">Sobre</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="imoveis.html" class="nav-link">Imoveis</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contanto.html" class="nav-link active">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="login-cadastro.html" class="nav-link">Cadastro</a>
+          </li>
+        </ul>
+      </div><!--Fim div collapse-->
+    </div><!--Fim div container fluid-->
+  </nav>
+
+  <header id="inicio" class="text-center text-white">
+    <div class="header-background">
+      <h1>Encontre sua casa do sonhos</h1>
+    </div>
+  </header>
+
+
+  <section id="contato" class="container my-5">
+    <h2 class="text-center mb-4">Fale conosco</h2>
+
+    <form class="mx-auto bg-white p-4 rounded shadow" style="max-width: 700px;">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">
+            <i class="bi bi-person-fill me-1"></i>Nome
+
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">
+            <i class="bi bi-envelope-fill me-1"></i>E-mail
+
+            <input type="text" class="form-control" id="email" placeholder="exemplo@gmail.com" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">
+            <i class="bi bi-telephone-fill me-1"></i>Telefone
+
+            <input type="tel" class="form-control" id="nome" placeholder="(00)273322-1515" required>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-6">
+          <label for="assunto" class="form-label">
+            <i class="bi bi-tag-fill me-1"></i>Assunto
+            <select id="assunto" class="form-select">
+              <option selected disabled value="">Selecione...</option>
+              <option>Agendar visita</option>
+              <option>Comprar imóvel</option>
+              <option>Parceira comercial</option>
+              <option>Outros</option>
+            </select>
+          </label>
+        </div><!-- Fim col-md-6-->
+
+        <div class="col-md-12">
+          <label for="mensagem" class="form-label">
+            <i class="bi bi-chat-left-text-fill me-1"></i>Mensagem
+          </label>
+
+          <textarea id="mensagem" class="form-control" placeholder="Como podemos te ajudar?" rows="5"></textarea>
+        </div>
+      </div><!-- Fim row-->
+
+      <button type="submit" class="btn btn-dark mt-4 w-100">
+        <i class="bi bi-send-fill me-2"></i>Enviar Mensagem
+      </button>
+    </form>
+  </section>
+  <footer>
+    <div class="footer-top">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" class="bi bi-facebook" aria-label="Facebook"></a>
+
+        <a href="https://www.instagram.com" class="bi bi-instagram" aria-label="Instagram"></a>
+
+        <a href="https://twitter.com" class="bi bi-twitter" aria-label="Twitter"></a>
+
+      </div>
+
+    </div><!--fim footer top-->
+
+    <div class="efeit-frase">
+      <p>Nós transformamos a casas em sonhos,onde o luxo encontra
+        a perfeição
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 LuxoImóvel. Todos os direitos reservados
+        </p>
+
+        <p>
+          <a href="#"> Anderson Nicolau | Desenvolvido Por Senac</a>
+        </p>
+
+      </div>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

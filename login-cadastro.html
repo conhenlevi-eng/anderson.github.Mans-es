@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .containe {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        input {
+            width: 92%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10PX;
+            background: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        button:hover{
+            background: #45a049;
+        }
+
+        hr{
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Cadastre-se</h2>
+        <input type="text" id="novoUsuario" placeholder="Novo e-mail">
+        <input type="password" id="novoSenha" placeholder="Nova senha">
+
+        <button onclick="cadastrar()">Cadastrar</button>
+
+        <hr>
+
+        <h2>Login</h2>
+        <input type="text" id="loginUsuario" placeholder="Novo e-mail">
+        <input type="password" id="loginSenha" placeholder="Senha">
+
+        <button onclick="logar()">Entra</button>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
